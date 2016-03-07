@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-     
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -63,6 +62,7 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
+                    
                     <li class="donate-nav">
                         <a href="donate.php">DONATE</a>
                     </li>
@@ -72,85 +72,57 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+<div>
+</div>
 
- <div class="container-fluid" style="background: url(img/body/top-bg.jpg)">
+<div class="container-fluid" style="background: url(img/body/top-bg.jpg)">
   <div style="float:left;height:100px;width:100%"></div>
   <div style="float:left;width:100%"><div class="container">
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6"><ol class="breadcrumb">
   <li><a href="index.html">Home</a></li>
-  <li class="active">About Us</li>
+  <li class="active">Donate</li>
 </ol></div>
             </div>
             </div>
 </div>
 </div>
- <section id="team" class="bg-light-gray">
-     
+
+<div style="clear:both"></div>
+<section id="contact">
      <div class="overlay">
         <div class="container">
-            
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">ABOUT NATIAA</h2>
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">What we are?</h3>
-                    <h4 class="section-subheading text-muted"><p>The New Amsterdam Technical Institute Alumni Association (NATIAA) is an organization for former NATI students, graduates and friends located in Canada and around the world.    We believe that we can positively impact the future of Guyana by giving back, and investing in the untapped potential of our students.</p></br>
+               <div class="donate-msg"> we have been given a list of items that are needed by some of the faculties at NATI. When perusing through the list, you'll notice the quantity needed, and an approximate price per unit for the items. If you're looking to purchase an item, we have created an Amazon registry making it easy for donors to find the right product. Monetary donations as well as used items that are in good condition are welcomed. If you have any questions regarding this list, please do not hesitate to get in touch with us.
+             </div>  
+             <div class="well add-ress">
+                <p> If donating through the Amazon Registry, please ship all items directly to:</p> 
+                 <p><span class="add-res">21 Olivia Marie Road, Brampton, Ontario, L6Y 0M5</p>
+                 </div>
+             <ul class="nav nav-tabs" id="myTab">
+			  <li class="active"><a data-target="#home" data-toggle="tab">BUILDING TOOLS</a></li>
+			  <li><a data-target="#profile" data-toggle="tab">CARPENTRY REGISTRY</a></li>
+			  <li><a data-target="#settings" data-toggle="tab">AGRICULTURE/AUTOMOTIVE BOOKS</a></li>
+			</ul>
 
-<p>NATIAA officially adopted our Constitution on March 30, 2015 and is run by a 4-member executive board.</p></h4>
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">What we do?</h3>
-                    <h4 class="section-subheading text-muted"><p>We seek to facilitate a spirit of philanthropy, encouraging members to contribute their time, talent and resources to the betterment of our alma mater, NATI.   The letters “U” and “I” are both part of the word “Alumni”, proof that our goals can only be achieved together.  Teamwork and collaboration are our watchwords.</p></br>
- 
-<p>We will keep you informed on how you can participate and contribute to this worthy cause.  We would also love to hear from you – your ideas and enthusiasm are welcomed.  
-</p><br />
-<p>There’s a lot to get accomplished and we won’t be able to do it without your help!</p>
-</h4>
-                </div>
-            </div>
-            <div class="row">
-                
-                <div class="bs-callout bs-callout-info">
-  <div class="bss"><h3>NATIAA President’s Message</h3>
-<h4>Welcome to the NATIAA Webpage</h4></div>
-<p>
-    
-    <div class="col-sm-6 col-md-4 main-pres">
-    <div class="thumbnail">
-      <img src="img/body/president.png" class="img-responsive">
-      <div class="caption-a">
-        <p>Louis Adams, President</p>
-      </div>
-    </div>
-  </div>
-    
-I am Louis Adams and I am honoured to serve as the First President of NATI Alumni Association. It`s a great privilege and I am deeply grateful to our executives and volunteers for their advice and support.
-Our Association represents more than 10,000 graduates and as our alma mater continues to pursue its mandate under challenging condition/circumstances. Our association is well positioned to contribute to the success of the Institute.
-Past graduates and friends are the lifeblood of this association and have important roles to play. So if you haven`t been involved lately please check out the various links to help you learn more about our association, connect with NATI and fellow alumni from around the world and various activities of our association  and opportunities for you to participate.</p>
-<p>As we embark on this mission of '' <i>Giving Back to Impact</i> '' we hope that with your involvement to volunteer, raise funds, and to organise events will help us to achieve our objectives.
-With your assistance we plan to address the needs of the institute in terms of the facilities, equipments, books, mentoring, special lectures, homecoming events etc.
-Our executive believe in working collaboratively with all the stake holders to ensure that the students are successful and upon graduation are educated, have economic potential will find employment, and be on a trajectory of upward mobility  .
-During this year your Association worked diligently to define new strategic directions and goals.</p>
-<p>Our first project is to supply cleaning equipments and products to the institute.</p>
-<ul><li>Determine the needs of the Institute.</li>
-<li>Prioritise our activities/projects.</li>
-<li>Initiate new projects</li>
-<li>Enroll past graduates as Alumni</li>
-<li>Plan various fun raising events</li></ul>
+			<div class="tab-content">
+			   <div class="tab-pane active" id="home">
+                  <?php require_once('building.php'); ?></div>
 
-<p>I invite all graduates to get connected and stay involved. As always feel free to speak to me or email if you need additional information</p>
-<p>We appreciate your continued support.</p>
+              
+              
+			  <div class="tab-pane" id="profile">
+                  <?php require_once('carpentry.php'); ?></div>
+
+
+              <div class="tab-pane" id="settings" style="text-align:center">
+                <div style="padding:50px"> <p style="font-size:25px"> Help New Amsterdam technical Institute Alumni Association by <b>donating books</b></p><br/>
+                 <a class="btn btn-danger btn-lg" target="_blank" href="http://www.amazon.ca/gp/registry/wishlist/3H4F17I9IMS8J">
+                            Donate Now</a> </div>
+              </div>
 </div>
-                
-                
-            </div>
+        </div>
         </div>
      </div>
     </section>
@@ -177,7 +149,7 @@ During this year your Association worked diligently to define new strategic dire
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+   <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -192,7 +164,7 @@ During this year your Association worked diligently to define new strategic dire
     <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/main.js"></script>
+    
 
 </body>
 

@@ -121,6 +121,53 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     padding: 20px 40px;
 }
+.nav-tabs > li > a {
+    background: #3d956f none repeat scroll 0 0;
+    cursor: pointer;
+}
+.bs-callout-info {
+    border-left-color: #1b809e;
+}
+.bss{
+     border-left: 5px solid #1b809e;
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    padding-left: 20px;
+}
+.thumbnail .caption-a {
+    color: #333;
+    padding: 9px;
+}
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    padding: 20px;
+    text-align: justify;
+}
+.donate-msg{
+    padding: 20px; 
+    text-align: justify; 
+    color: rgb(85, 85, 85);
+}
+.add-ress{
+    text-align: center;
+    font-size: 13px;
+}
+.add-res{
+    font-size: 20px;
+    
+}
+.tab-content{
+    margin-top: 20px;
+}
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #fec503;
@@ -202,6 +249,9 @@ h1, h2, h3, h4, h5, h6 {
     transition: padding .3s;
     border: 0;
 }
+.main-pres{
+    float:right;
+}
 .navbar-right {
     padding: 5px 0 0;
 }
@@ -221,6 +271,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+}
+.caption .row {
+    bottom: 0;
+    height: 35px;
+    position: absolute;
+    width:100%;
+}
+.thumbnail .caption {
+    color: #333;
+    height: 90px;
+    padding: 9px;
+    position: relative;
+}
+
+.img-m{
+    height: 130px!important;
+}
+.btncs{
+    float: right;
 }
 }header {
     background-image: url(../img/body/bg.jpg);

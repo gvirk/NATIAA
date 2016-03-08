@@ -37,7 +37,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+ <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -56,7 +56,8 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Updates <span class="caret"></span></a>
+                     <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Updates <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="grads.html">Congrates to Grads</a></li>
             <li role="separator" class="divider"></li>
@@ -65,7 +66,8 @@
             <li><a href="principal.html">Congrates by Principal</a></li>
           </ul>
         </li>
-                    <li class="dropdown">
+        
+         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
           <ul class="dropdown-menu">
         <li><a href="#">Case Studies</a></li>
@@ -91,8 +93,7 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    
-                    <li class="donate-nav">
+                   <li class="donate-nav">
                         <a href="donate.php">DONATE</a>
                     </li>
                 </ul>
@@ -101,8 +102,6 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<div>
-</div>
 
 <div class="container-fluid" style="background: url(img/body/top-bg.jpg)">
   <div style="float:left;height:100px;width:100%"></div>
